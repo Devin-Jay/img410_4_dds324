@@ -15,6 +15,8 @@ raycast.c contains functions to read input scene and raycast.
 
 raycast.c also utilizes past projects to do vector3 math.
 
+raycast.c now implements lighting and shadows when calculating a pixel's color.
+
 structures.h contains various datatypes created.
 
 Run with ./raycast 200 200 input.scene output.ppm
