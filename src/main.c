@@ -32,6 +32,7 @@ int main(int argc, char* argv[])
 
     // free allocated memory
     free(scene->objects);
+    free(scene->lights);
     free(scene);
     free(result->pixels);
     free(result);

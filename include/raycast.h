@@ -5,7 +5,7 @@
 #include "structures.h"
 
 // function declarations
-bool readProperty(FILE *file, char *property, Scene *scene);
+bool readProperty(FILE *file, char *property, Scene *scene, bool isLight);
 Scene *readInputScene(char* filename);
 PPMImage *raycast(Scene *scene, int width, int height);
 Vector3 shoot(Scene *scene, Vector3 rayOrigin, Vector3 rayDir);

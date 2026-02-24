@@ -42,4 +42,5 @@ typedef struct
     Light* lights;
     Camera camera;
     int objectNum;
+    int lightNum;
 } Scene;
